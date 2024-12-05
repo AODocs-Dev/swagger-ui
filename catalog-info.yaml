@@ -1,0 +1,13 @@
+  apiVersion: backstage.io/v1alpha1
+  kind: Component
+  metadata:
+    name: swagger-ui
+    description: Github repository for swagger-ui
+    annotations:
+      google.com/cloudbuild-project-slug: ao-docs-tools
+      github.com/project-slug: AODocs-Dev/swagger-ui
+      sonarqube.org/project-key: AODocs-Dev_swagger-ui
+  spec:
+    type: service
+    lifecycle: production
+    owner: group:default/sre
