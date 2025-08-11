@@ -7,7 +7,7 @@
 #
 ###
 
-FROM    ubuntu:14.04
+FROM    ubuntu:14.04.5@sha256:30204139c6ab96ebd75d72f34db390f28c4decd5e563488b4e485bf979397b67
 MAINTAINER dnephin@gmail.com
 
 ENV     DEBIAN_FRONTEND noninteractive
